@@ -29,7 +29,7 @@ def main():
     message = f"""📦 New Lead:
 Name: {data[0]}
 Email: {data[1]}
-Phone: {data[2]}"
+Phone: {data[2]}"""
 
     send_telegram_message(message)
     log_to_google_sheets(data)
