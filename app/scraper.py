@@ -26,7 +26,7 @@ def log_to_google_sheets(data):
 def main():
     # Simulated scraped data
     data = ["Demo Supplier", "demo@example.com", "1234567890"]
-    message = f"📦 New Lead:
+    message = f"""📦 New Lead:
 Name: {data[0]}
 Email: {data[1]}
 Phone: {data[2]}"
